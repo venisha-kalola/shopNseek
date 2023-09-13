@@ -1,0 +1,36 @@
+.commodities {
+    padding: 10px;
+    background-color: #f9e0d9; /* Background color from the provided palette */
+  }
+  
+  .commodities-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+  }
+  
+  .commodity {
+    background-color: white; 
+   
+    padding: 10px;
+    width: 15.3%;
+    text-align: center;
+  }
+  
+  .commodity img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .commodity h3 {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #754f5b; /* Text color from the provided palette */
+  }
+  
+  .commodity p {
+    font-weight: bold;
+   
+  }
+  

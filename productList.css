@@ -1,0 +1,54 @@
+/* Add your styles here to style the ProductList component */
+.shop {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e6dbd0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 1%;
+  }
+  
+  .box {
+    margin: 2.5%;
+    height: 500px;
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .box h2 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    height: 60px;
+    font-weight: 400;
+  }
+  .title-other-categories{
+   text-align: center;
+   font-weight: 600;
+   margin: 30px 10px;
+   color: #5d4954;
+  }
+  .box-img {
+    height: 65%;
+    width: 90%;
+    margin: 5%;
+  }
+  
+  .box p {
+    margin-top: auto;
+    color: #007185;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .box p a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Add more styles as needed */
+  

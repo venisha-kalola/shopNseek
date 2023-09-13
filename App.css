@@ -1,0 +1,100 @@
+*{
+  font-family: Poppins,sans-serif;
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+
+}
+/* App Component Styles */
+.app {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9e0d9;
+  
+}
+.logg{
+
+  width: 500px;
+  margin: auto;
+  margin-top: 60px;
+}
+.header button{
+  margin: 1rem;
+}
+.button-property{
+margin: 20px 0;
+}
+.logg h1{
+  margin: 2rem;
+  font-size: 2rem;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+button.active {
+  background-color: #5d4954;
+  color: white;
+  border-radius: 5px;
+}
+
+/* SignUp Component Styles */
+.signup {
+  text-align: center;
+}
+
+.error {
+  color: red;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #5d4954;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.switch-to-login {
+  color: #5d4954;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.switch-to-login:hover {
+  text-decoration: underline;
+}
